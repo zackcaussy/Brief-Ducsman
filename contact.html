@@ -14,14 +14,14 @@
     <main>
         <h2>Contactez-nous</h2>
         <form>
-            <input placeholder="Nom" required type="text">
-            <input placeholder="Prénom" required type="text">
+            <input placeholder="Nom" required type="text" maxlength="50">
+            <input placeholder="Prénom" required type="text" maxlength="50">
             <input type="email" id="mail" required placeholder="exemple@votremail.com">
             <input placeholder="Téléphone" type="number" name="Tel">
-            <input placeholder="Code postal" type="number">
-            <input placeholder="Ville" type="text" minlength=4 maxlength="20"> 
+            <input placeholder="Code postal" type="number" maxlength="5">
+            <input placeholder="Ville" type="text" pattern="[A-Za-z]{1,50}" required> 
             <textarea placeholder="Sujet" required></textarea>
-            <textarea placeholder="Votre message ici..." required></textarea>
+            <textarea placeholder="Votre message ici..." required></textarea>S
             <button>Envoyer</button>
         </form>
     </main>

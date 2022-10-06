@@ -1,6 +1,12 @@
+/* font-family: 'Amiri', serif;
+font-family: 'Italianno', cursive;
+font-family: 'Maitree', serif; */
 body{
     padding-left: 20%;
     background-color: lightgray;
+    margin: 0;
+    font-family: 'Maitree', serif;
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
 }
 header{
     width: 100%;
@@ -13,13 +19,11 @@ main{
     flex-wrap: wrap;
     flex-direction: row;
     margin-top: 5em;
-    border: 1px solid red;
     width: 80%;
     margin-left: 10%;
     gap: 2em;    
 }
 main div.article{
-    border: 1px solid black;
     flex: 31%;
     position: relative;
     text-align: center;
@@ -27,21 +31,30 @@ main div.article{
 main div.article img{
     width: 100%;
     height: 100%;
+    border-radius: 7px;
 }
 div.article div.texte{
     position: absolute;
-    top: 95%;
-    left: 10%;
-    transform: translate(-50%, -50%);
-    background-color: white;
-    color: grey;
-    padding: 1px;
+    top: 94%;
+    left: 3%;
+    color: #303030;
+}
+div.article div.texte span{
+    margin-right: 0.6em;
+    background-color: #fff;
+    border-radius: 7px;
+    padding-left: 2px;
+    padding-right: 2px;
+    opacity: 0.7;  
 }
 div.article div.prix{
     position: absolute;
-    top: 5%;
+    top: 1%;
     right: 5%;
-    transform: translate(-50%,-50%);
-    color: black;
-    
+    color: #ffffff;
+    font-family: 'Amiri', serif;
+}
+footer{
+    text-align: center;
+    margin-top: 3%;
 }
