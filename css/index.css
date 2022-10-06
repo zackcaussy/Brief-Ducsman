@@ -1,11 +1,18 @@
 body{
     padding-left: 20%;
-    background-color: lightgrey;
+    background-color: lightgray;
+}
+header{
+    width: 100%;
+}
+header img{
+    width: 100%;
 }
 main{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    margin-top: 5em;
     border: 1px solid red;
     width: 80%;
     margin-left: 10%;
@@ -14,7 +21,6 @@ main{
 main div.article{
     border: 1px solid black;
     flex: 31%;
-    height: 15em;
     position: relative;
     text-align: center;
 }
@@ -30,4 +36,12 @@ div.article div.texte{
     background-color: white;
     color: grey;
     padding: 1px;
+}
+div.article div.prix{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    transform: translate(-50%,-50%);
+    color: black;
+    
 }
