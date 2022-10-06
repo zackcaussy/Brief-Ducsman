@@ -1,11 +1,12 @@
 body{
     padding-left: 20%;
-    background-color: lightgrey;
+    background-color: lightgray;
 }
 main{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    margin-top: 5em;
     border: 1px solid red;
     width: 80%;
     margin-left: 10%;
@@ -14,7 +15,6 @@ main{
 main div.article{
     border: 1px solid black;
     flex: 31%;
-    height: 15em;
     position: relative;
     text-align: center;
 }
