@@ -2,6 +2,12 @@ body{
     padding-left: 20%;
     background-color: lightgray;
 }
+header{
+    width: 100%;
+}
+header img{
+    width: 100%;
+}
 main{
     display: flex;
     flex-wrap: wrap;
