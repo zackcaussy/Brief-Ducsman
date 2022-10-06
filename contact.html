@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Maitree:wght@300&display=swap" rel="stylesheet">
     <title>Contact</title>
 </head>
 
@@ -12,18 +14,17 @@
     <main>
         <h2>Contactez-nous</h2>
         <form>
-            <input placeholder="Nom">
-            <input placeholder="Prénom">
-            
-            <input placeholder="E-mail">
-            <textarea placeholder="Votre message ici..."></textarea>
+            <input placeholder="Nom" required type="text" maxlength="50">
+            <input placeholder="Prénom" required type="text" maxlength="50">
+            <input type="email" id="mail" required placeholder="exemple@votremail.com">
+            <input placeholder="Téléphone" type="number" name="Tel">
+            <input placeholder="Code postal" type="number" maxlength="5">
+            <input placeholder="Ville" type="text" pattern="[A-Za-z]{1,50}" required> 
+            <textarea placeholder="Sujet" required></textarea>
+            <textarea placeholder="Votre message ici..." required></textarea>S
             <button>Envoyer</button>
         </form>
-    
-
     </main>
-</html>
-<body>
-    
 </body>
+
 </html>
