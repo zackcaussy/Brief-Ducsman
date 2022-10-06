@@ -1,0 +1,36 @@
+/* ***************FOOTER***************** */
+main{
+    background-color: #7e7b76;
+    color: #FFFAE1;
+    padding: 20% 0 10% 0;
+    text-align: center;
+}
+form{
+    margin: 0 auto;
+    max-width: 900%;
+}
+input, textarea, button{
+    border: none;
+    width: 55%;
+    padding: 15%, 10%;
+    margin: 1% 0;
+    font-size: 1.2em;
+    font-family: 'Advent Pro', sans-serif;
+    border-radius: 8%;
+}
+textarea{
+    height: 120%;
+}
+button{
+    font-size: 1.5em;
+    background-color: #FFFAE1;
+}
+button:hover{
+    background-color: #e55039;
+    color: #FFFAE1;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+body{
+    padding-left:20%;
+}
