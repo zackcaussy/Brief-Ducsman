@@ -1,10 +1,10 @@
 body {
-    background-color: black;
+    background-color: rgb(31, 15, 105);
     padding-left: 20%;
     color: aquamarine;
 }
 
-/* Menu de nav */
+/* Menu de Nav */
 nav {
     display: flex;
     flex-direction: column;
@@ -16,6 +16,7 @@ nav {
     left: 0px;
     top: 0px;
     flex-shrink: 1;
+    border-right: solid 1px #303030;
 }
 
 
@@ -63,7 +64,6 @@ ul {
     margin: auto;
     list-style: none;
     flex: 100%;
-    font-size: 24px;
     margin: 0;
     margin-top: 5vh;
     margin-left: -5vw;
@@ -89,3 +89,34 @@ ul {
 .liensoc a img {
     max-width: 50px;
 }
+
+/* Menu de Nav 720p */
+
+@media  screen and (max-width: 1366px) {
+    h1 {
+        text-align: center;
+        font-size: 600%;
+        margin: 0;
+        margin-top: 5vh;
+    }
+    .h2nav {
+        text-align: center;
+        font-size: 180%;
+        margin: 0;
+        margin-top: -15%;
+        margin-left: 5%;
+    }
+    .liennav {
+        font-size: 200%;
+    }
+    ul {
+        margin: 0;
+        margin-top: 7vh;
+        margin-left: -3vw;
+        padding: 0;
+    }
+}
+
+/* Menu de Nav mobile */
+
+/* Fin de Menu de Nav */
