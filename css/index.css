@@ -17,7 +17,16 @@ div.panier{
 }
 div.panier img{
     width: 100%;
-
+}
+/* fleche */
+div.fleche{
+    position: fixed;
+    bottom: 1%;
+    right: 1%;
+    width: 2%;
+}
+div.fleche img{
+    width: 100%;
 }
 /* header */
 header{
