@@ -1,11 +1,11 @@
 body {
-    background-color: rgb(31, 15, 105);
+    background-color: rgb(64, 31, 212);
     padding-left: 20%;
     color: aquamarine;
 }
 
 /* Menu de Nav */
-nav {
+.navm {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,7 +56,7 @@ nav img {
 }
 
 .liennav:hover {
-    scale: 1.2;
+    transform: scale(1.2);
     text-shadow: #303030;
 }
 
@@ -92,13 +92,14 @@ ul {
 
 /* Menu de Nav 720p */
 
-@media  screen and (max-width: 1366px) {
+@media screen and (max-width: 1366px) {
     h1 {
         text-align: center;
         font-size: 600%;
         margin: 0;
         margin-top: 5vh;
     }
+
     .h2nav {
         text-align: center;
         font-size: 180%;
@@ -106,9 +107,11 @@ ul {
         margin-top: -15%;
         margin-left: 5%;
     }
+
     .liennav {
         font-size: 200%;
     }
+
     ul {
         margin: 0;
         margin-top: 7vh;
@@ -119,13 +122,14 @@ ul {
 
 /* Menu de Nav Tablette */
 
-@media  screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     h1 {
         text-align: center;
         font-size: 450%;
         margin: 0;
         margin-top: 5vh;
     }
+
     .h2nav {
         text-align: center;
         font-size: 130%;
@@ -133,9 +137,11 @@ ul {
         margin-top: -15%;
         margin-left: 5%;
     }
+
     .liennav {
         font-size: 150%;
     }
+
     ul {
         margin: 0;
         margin-top: 12vh;
@@ -146,6 +152,117 @@ ul {
 
 /* Menu de Nav mobile */
 
+@media screen and (max-width: 480px) {
+    .navm {
+        width: 50vw;
+    }
 
+    h1 {
+        text-align: center;
+        font-size: 400%;
+        margin: 0;
+        margin-top: 5vh;
+    }
+
+    .h2nav {
+        text-align: center;
+        font-size: 120%;
+        margin: 0;
+        margin-top: -15%;
+        margin-left: 5%;
+    }
+
+    .liennav {
+        font-size: 180%;
+    }
+
+    ul {
+        margin: 0;
+        margin-top: 15vh;
+        margin-left: -3vw;
+        padding: 0;
+    }
+
+    .carte {
+        margin-top: -30vh;
+    }
+
+    .liensoc {
+        justify-content: center;
+    }
+
+    .liensoc a img {
+        min-width: 35px;
+    }
+
+    .nav-container .checkbox {
+        position: absolute;
+        display: block;
+        height: 32px;
+        width: 32px;
+        top: 20px;
+        left: 20px;
+        z-index: 5;
+        opacity: 0;
+        cursor: pointer;
+    }
+
+    .nav-container .hamburger-lines {
+        display: block;
+        height: 26px;
+        width: 32px;
+        position: absolute;
+        top: 17px;
+        left: 20px;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .nav-container .hamburger-lines .line {
+        display: block;
+        height: 4px;
+        width: 100%;
+        border-radius: 10px;
+        background: #0e2431;
+    }
+
+    .nav-container .hamburger-lines .line1 {
+        transform-origin: 0% 0%;
+        transition: transform 0.4s ease-in-out;
+    }
+
+    .nav-container .hamburger-lines .line2 {
+        transition: transform 0.2s ease-in-out;
+    }
+
+    .nav-container .hamburger-lines .line3 {
+        transform-origin: 0% 100%;
+        transition: transform 0.4s ease-in-out;
+    }
+
+    .nav-container input[type="checkbox"]:checked~.hamburger-lines .line1 {
+        transform: rotate(45deg);
+    }
+
+    .nav-container input[type="checkbox"]:checked~.hamburger-lines .line2 {
+        transform: scaleY(0);
+    }
+
+    .nav-container input[type="checkbox"]:checked~.hamburger-lines .line3 {
+        transform: rotate(-45deg);
+    }
+
+    .nav-container input[type="checkbox"]:checked~.navm {
+        transform: scaleY(0);
+    }
+}
+
+@media screen and (min-width: 481px) {
+    #check {
+        display: none;
+    }
+}
 
 /* Fin de Menu de Nav */
