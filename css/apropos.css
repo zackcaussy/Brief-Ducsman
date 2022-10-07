@@ -1,71 +1,3 @@
-
-section#contact .container{
-    margin: 0px auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 10px;
-    box-sizing: border-box;
-    box-shadow: 0px 10px 50px -10px #FFFF;
-    font-family: 'Maitree', serif;
-}
- section#contact .container .titre{
- text-align: center;
- margin-bottom: 50px;
- }
- section#contact .container .titre p{
-    font-size: 1em; 
-}
-section#contact .container .titre h3{
-    font-size: 2.2em;
-}
-section#contact .container form{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: 600px;
-}
-section#contact .container form input{
-    width: 47%;
-}
-
-section#contact .container form input,
-section#contact .container form textarea{
-    margin: 10px 0;
-    padding: 10px 0;
-    box-sizing: border-box;
-    border: none;
-    outline: none;
-    border-bottom: 2px solid #FFFF;
-    transition: 0.2s;
-}
-section#contact .container form textarea{
-    width: 600px;
-    resize: none;
-    height: 100px;
-    margin-bottom: 30px;
-}
-section#contact .container form button{
-  width: 192px;
-  height: 50px;
-  border-radius: 8px;
-  border: none;
-  color: white;
-  font-weight: bold;
-  font-size: 1.2em;
-  cursor: pointer;
-  margin-top: 30px;
-  outline: none;
-  margin: 0 auto;
-
-}
-body{
-    padding-left: 20%;
-    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
-    height: 100vh;
-    font-family: 'Maitree', serif; ;
-    }
 /* Menu de Nav */
 nav {
     display: flex;
@@ -208,10 +140,6 @@ ul {
         margin-left: -3vw;
         padding: 0;
     }
-}
-@media screen and (max-width:700px){}
-
-
- 
-
-    
+    body{
+        font-family: 'Maitree', serif; ;
+    }
