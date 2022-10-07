@@ -13,3 +13,19 @@ main{
     margin-left: 10%;
     gap: 2em;    
 }
+main div.left{
+    flex: 1;
+}
+main div.right{
+    flex: 1;
+}
+main div img{
+    width:100%;
+}
+main div.right h2{
+    font-size:4em;
+}
+main div.right p{
+    font-size: 2em;
+}
+
