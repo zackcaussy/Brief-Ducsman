@@ -56,7 +56,7 @@ nav img {
 }
 
 .liennav:hover {
-    scale: 1.2;
+    transform: scale(1.2);
     text-shadow: #303030;
 }
 
