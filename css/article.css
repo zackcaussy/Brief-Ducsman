@@ -28,4 +28,21 @@ main div.right h2{
 main div.right p{
     font-size: 2em;
 }
-
+main div.right button.ajout{
+    background-color: #303030;
+    color: #fff;
+    width: 80%;
+    height: 10%;
+    border-radius: 10px;
+}
+main div.right button.ajout:hover{
+    background-color: #fff;
+    transition: 0.5s;
+    color: #fff;
+    width: 80%;
+    height: 10%;
+    border-radius: 10px;
+}
+main div.right img{
+    width: 10%;
+}
