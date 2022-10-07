@@ -2,7 +2,6 @@
 <html lang="fr">
 
 <head>
-    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/contact.css">
@@ -11,20 +10,41 @@
 </head>
 
 <body>
-    <main>
-        <h2>Contactez-nous</h2>
-        <form>
-            <input placeholder="Nom" required type="text" maxlength="50">
-            <input placeholder="Prénom" required type="text" maxlength="50">
+    
+        <section id="contact">
+            <div class="container">
+                <div class="titre">
+                <h6>Une question ? un conseil ?</h6>
+                <h3>Contactez-nous</h3>
+                </div>
+        <form action="#" method="post">
+        
+            <input placeholder="Nom" id="Nom" required type="text" maxlength="50">
+
+            <input placeholder="Prénom" id="Prénom" required type="text" maxlength="50">
+
             <input type="email" id="mail" required placeholder="exemple@votremail.com">
-            <input placeholder="Téléphone" type="number" name="Tel">
-            <input placeholder="Code postal" type="number" maxlength="5">
-            <input placeholder="Ville" type="text" pattern="[A-Za-z]{1,50}" required> 
-            <textarea placeholder="Sujet" required></textarea>
-            <textarea placeholder="Votre message ici..." required></textarea>S
-            <button>Envoyer</button>
+
+            <input placeholder="Téléphone" id="Téléphone" type="number" name="Tel">
+            
+            <input placeholder="Code postal" id="Code postal" type="number" maxlength="5">  
+
+           
+            <input placeholder="Ville" type="text" id="Ville" pattern="[A-Za-z]{1,50}" required>
+
+           
+             <div class="sujet"><textarea placeholder="Sujet" id="Sujet" required></textarea></div>
+
+            <textarea placeholder="Votre message ici..." required></textarea>
+
+
+            
         </form>
-    </main>
+
+        <button> Envoyer</button>
+
+        </div>
+    </section>
 </body>
 
 </html>

@@ -1,43 +1,76 @@
 
 /* ***************FOOTER***************** */
-
-main{
-    background-color: #7e7b76;
-    color: #FFFFFF;
-    padding: 20% 0 10% 0;
-    text-align: center;
-    font-family: 'Maitree';
-    
+section#contact .container{
+    max-width: 1100px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: grey;
+    padding: 30px 10px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    box-shadow: 0px 10px 50px -10px #FFFF;
 }
-form{
-    margin: 0 auto;
-    max-width: 900%;
-    font-family: 'Maitree';
+ section#contact .container .title{
+ text-align: center;
+ color: grey;
+ margin-bottom: 50px;
+ }
+ section#contact .container .title h6{
+    font-size: 1em; 
 }
-input, textarea, button{
+section#contat .container .title h3{
+    font-size: 2.2em;
+}
+section#contact .container form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 600px;
+}
+section#contact .container form input{
+    width: 47%;
+}
+section#appointment .container form .input:hover,
+section#appointment .container form .textarea:hover{
+    border-bottom: 2px solid rgba(90, 88, 88, 0.664);
+}
+section#contact .container form input,
+section#contact .container form textarea{
+    margin: 10px 0;
+    padding: 10px 0;
+    box-sizing: border-box;
     border: none;
-    width: 55%;
-    padding: 15%, 10%;
-    margin: 1% 0;
-    font-size: 1.2em;
-    border-radius: 8px;
+    outline: none;
+    border-bottom: 2px solid #FFFF;
+    transition: 0.2s;
+}
+section#contact .container form textarea{
+    width: 600px;
+    resize: none;
+    height: 100px;
+    margin-bottom: 30px;
+}
+section#contact .container form button{
+  width: 192px;
+  height: 50px;
+  border-radius: 8px;
+  border: none;
+  background-color:grey;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2em;
+  cursor: pointer;
+  margin-top: 30px;
+  outline: none;
+  margin: 0 auto;
+
+}
 
 
 
-}
-textarea{
-    height: 120%;
-}
-button{
-    font-size: 1.5em;
-    background-color: #FFFAE1;
-}
-button:hover{
-    background-color: #e55039;
-    color: #FFFAE1;
-    cursor: pointer;
-    transition: 0.3s ease-in-out;
-}
-body{
-    padding-left:20%;
-}
+ 
+
+    
