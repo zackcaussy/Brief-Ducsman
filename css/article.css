@@ -1,0 +1,31 @@
+body{
+    padding-left: 20%;
+    margin: 0;
+    font-family: 'Maitree', serif;
+    background-image: linear-gradient(180deg, #fdfcfb 0%, #e2d1c3 100%);
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 5em;
+    width: 80%;
+    margin-left: 10%;
+    gap: 2em;    
+}
+main div.left{
+    flex: 1;
+}
+main div.right{
+    flex: 1;
+}
+main div img{
+    width:100%;
+}
+main div.right h2{
+    font-size:4em;
+}
+main div.right p{
+    font-size: 2em;
+}
+

@@ -117,6 +117,35 @@ ul {
     }
 }
 
+/* Menu de Nav Tablette */
+
+@media  screen and (max-width: 1024px) {
+    h1 {
+        text-align: center;
+        font-size: 450%;
+        margin: 0;
+        margin-top: 5vh;
+    }
+    .h2nav {
+        text-align: center;
+        font-size: 130%;
+        margin: 0;
+        margin-top: -15%;
+        margin-left: 5%;
+    }
+    .liennav {
+        font-size: 150%;
+    }
+    ul {
+        margin: 0;
+        margin-top: 12vh;
+        margin-left: -3vw;
+        padding: 0;
+    }
+}
+
 /* Menu de Nav mobile */
+
+
 
 /* Fin de Menu de Nav */
