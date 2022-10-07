@@ -6,33 +6,40 @@ body {
 
 /* Menu de nav */
 nav {
-    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     position: fixed;
-    background-color: white;
-    height: 100%;
-    width: 20%;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    height: 100vh;
+    width: 20vw;
     left: 0px;
     top: 0px;
+    flex-shrink: 1;
 }
 
 
 h1 {
     font-family: 'Italianno', cursive;
-    font-size: 750%;
+    font-size: clamp(100%, 750%, 750%);
     font-weight: 500;
-    color: black;
+    color: #303030;
     margin: 0;
-    margin-left: 5%;
+    margin-top: 5vh;
 }
 
 .h2nav {
     font-family: 'Amiri', serif;
-    color: black;
-    font-size: 200%;
+    color: #303030;
+    font-size: 220%;
     margin: 0;
     margin-top: -15%;
     margin-left: 5%;
     font-weight: 500;
+}
+
+.lienacc {
+    text-decoration: none;
 }
 
 nav img {
@@ -40,38 +47,45 @@ nav img {
 }
 
 .liennav {
+    display: block;
     text-decoration: none;
-    color: red;
+    color: #303030;
     font-family: 'Amiri', serif;
-    font-size: 48px;
+    font-size: 42px;
+}
+
+.liennav:hover {
+    scale: 1.2;
+    text-shadow: #303030;
 }
 
 ul {
     margin: auto;
-    display: inline-block;
     list-style: none;
     flex: 100%;
     font-size: 24px;
     margin: 0;
-    margin-top: 10%;
-    padding-left: 5%;
-}
-
-li {
-    padding-left: 5%;
+    margin-top: 5vh;
+    margin-left: -5vw;
+    padding: 0;
 }
 
 .carte {
     display: block;
     margin: auto;
     width: 75%;
+    min-height: 25%;
 }
 
-.linesoc {
-    width: 100%;
-
+.liensoc {
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 1;
+    justify-content: space-between;
+    width: 10vw;
+    margin-top: 5vh;
 }
 
 .liensoc a img {
-    width: 50px;
+    max-width: 50px;
 }
