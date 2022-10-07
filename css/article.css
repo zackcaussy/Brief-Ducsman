@@ -13,3 +13,35 @@ main{
     margin-left: 10%;
     gap: 2em;    
 }
+main div.left{
+    flex: 1;
+}
+main div.right{
+    flex: 1;
+}
+main div img{
+    width:100%;
+}
+main div.right h2{
+    font-size:4em;
+}
+main div.right p{
+    font-size: 2em;
+}
+main div.right button.ajout{
+    background-color: #303030;
+    color: #fff;
+    width: 80%;
+    height: 7%;
+    border-radius: 10px;
+}
+main div.right button.ajout:hover{
+    background-color:black;
+    transition: 0.5s;
+    color: #fff;
+    width: 80%;
+    height: 10%;
+    border-radius: 10px;
+}
+
+
