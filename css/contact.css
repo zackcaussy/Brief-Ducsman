@@ -1,10 +1,4 @@
-@media screen and (max-width:480px){
-    
-}
-/* font-family: 'Amiri', serif;
-font-family: 'Italianno', cursive;
-font-family: 'Maitree', serif; */
-/* ***************FOOTER***************** */
+
 section#contact .container{
     margin: 0px auto;
     display: flex;
@@ -214,6 +208,9 @@ ul {
         padding: 0;
     }
 }
+@media screen and (max-width:700px){}
+
+
  
 
     
