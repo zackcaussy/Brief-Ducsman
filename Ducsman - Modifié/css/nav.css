@@ -2,7 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     columns: auto;
-    background-color: black;
+    background-color: rgb(62, 38, 168);
     color: aquamarine;
     text-align: left;
 }
@@ -20,7 +20,7 @@ nav {
 .navbar{
     display: flex;
     flex-direction: column;
-    background-color: rgb(223, 223, 218);
+    background-color: rgb(163, 163, 149);
     border: 1px;
     box-sizing: border-box;
     
@@ -54,7 +54,7 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(184, 48, 48);
     margin: 10px;
     padding: 1px 15px 1px 15px;
     
@@ -92,7 +92,7 @@ ul {
 .liensoc a img {
     padding-left: 3em;
     width: 10%;
-    text-align: justify;
+    text-align: center;
 }
 
 p{
