@@ -141,5 +141,6 @@ ul {
         padding: 0;
     }
     body{
-        font-family: 'Maitree', serif;
+        font-family: 'Maitree', 'serif';
     }
+}
