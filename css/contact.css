@@ -1,27 +1,26 @@
-
+/* font-family: 'Amiri', serif;
+font-family: 'Italianno', cursive;
+font-family: 'Maitree', serif; */
 /* ***************FOOTER***************** */
 section#contact .container{
-    max-width: 1100px;
     margin: 0px auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-color: grey;
     padding: 30px 10px;
-    border-radius: 15px;
     box-sizing: border-box;
     box-shadow: 0px 10px 50px -10px #FFFF;
+    font-family: 'Maitree', serif;
 }
- section#contact .container .title{
+ section#contact .container .titre{
  text-align: center;
- color: grey;
  margin-bottom: 50px;
  }
- section#contact .container .title h6{
+ section#contact .container .titre p{
     font-size: 1em; 
 }
-section#contat .container .title h3{
+section#contact .container .titre h3{
     font-size: 2.2em;
 }
 section#contact .container form{
@@ -33,10 +32,7 @@ section#contact .container form{
 section#contact .container form input{
     width: 47%;
 }
-section#appointment .container form .input:hover,
-section#appointment .container form .textarea:hover{
-    border-bottom: 2px solid rgba(90, 88, 88, 0.664);
-}
+
 section#contact .container form input,
 section#contact .container form textarea{
     margin: 10px 0;
@@ -58,7 +54,6 @@ section#contact .container form button{
   height: 50px;
   border-radius: 8px;
   border: none;
-  background-color:grey;
   color: white;
   font-weight: bold;
   font-size: 1.2em;
@@ -68,8 +63,127 @@ section#contact .container form button{
   margin: 0 auto;
 
 }
+body{
+    padding-left: 20%;
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    height: 100vh;
+}
+/* Menu de Nav */
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    height: 100vh;
+    width: 20vw;
+    left: 0px;
+    top: 0px;
+    flex-shrink: 1;
+    border-right: solid 1px #303030;
+}
 
 
+h1 {
+    font-family: 'Italianno', cursive;
+    font-size: clamp(100%, 750%, 750%);
+    font-weight: 500;
+    color: #303030;
+    margin: 0;
+    margin-top: 5vh;
+}
+
+.h2nav {
+    font-family: 'Amiri', serif;
+    color: #303030;
+    font-size: 220%;
+    margin: 0;
+    margin-top: -15%;
+    margin-left: 5%;
+    font-weight: 500;
+}
+
+.lienacc {
+    text-decoration: none;
+}
+
+nav img {
+    width: 100%;
+}
+
+.liennav {
+    display: block;
+    text-decoration: none;
+    color: #303030;
+    font-family: 'Amiri', serif;
+    font-size: 42px;
+}
+
+.liennav:hover {
+    scale: 1.2;
+    text-shadow: #303030;
+}
+
+ul {
+    margin: auto;
+    list-style: none;
+    flex: 100%;
+    margin: 0;
+    margin-top: 5vh;
+    margin-left: -5vw;
+    padding: 0;
+}
+
+.carte {
+    display: block;
+    margin: auto;
+    width: 75%;
+    min-height: 25%;
+}
+
+.liensoc {
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 1;
+    justify-content: space-between;
+    width: 10vw;
+    margin-top: 5vh;
+}
+
+.liensoc a img {
+    max-width: 50px;
+}
+
+/* Menu de Nav 720p */
+
+@media  screen and (max-width: 1366px) {
+    h1 {
+        text-align: center;
+        font-size: 600%;
+        margin: 0;
+        margin-top: 5vh;
+    }
+    .h2nav {
+        text-align: center;
+        font-size: 180%;
+        margin: 0;
+        margin-top: -15%;
+        margin-left: 5%;
+    }
+    .liennav {
+        font-size: 200%;
+    }
+    ul {
+        margin: 0;
+        margin-top: 7vh;
+        margin-left: -3vw;
+        padding: 0;
+    }
+}
+
+/* Menu de Nav mobile */
+
+/* Fin de Menu de Nav */
 
  
 
