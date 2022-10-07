@@ -21,6 +21,7 @@ main div.right{
 }
 main div img{
     width:100%;
+    border-radius: 10px;
 }
 main div.right h2{
     font-size:4em;
@@ -43,5 +44,31 @@ main div.right button.ajout:hover{
     height: 10%;
     border-radius: 10px;
 }
-
-
+/* made in France */
+main div.left{
+    position: relative;
+}
+main div.left div.france{
+    position: absolute;
+    bottom: 1%;
+    right: 1%;
+}
+/* le hover du made in France */
+.france{
+    position: relative;
+    display: inline-block;
+    width: 10%;
+}
+.france img{
+    width: 100%;
+}
+.france .madeblue{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.france:hover .madeblue{
+    display: inline;
+}
