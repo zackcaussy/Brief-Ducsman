@@ -300,10 +300,9 @@ ul {
        font-family: 'Maitree';
    }
    
-   
-   
-   footer{
-       font-family: 'Maitree';
-   }
+  footer, p{
+font-family: 'Maitree';
+text-align: justify;
+}
 
 /* Fin de Menu de Nav */
