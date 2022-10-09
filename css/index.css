@@ -80,8 +80,8 @@ footer{
     text-align: center;
     margin-top: 3%;
 }
-/* nav */
-nav {
+/* Menu de Nav */
+.navm {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -92,8 +92,10 @@ nav {
     left: 0px;
     top: 0px;
     flex-shrink: 1;
-    border-right:solid 1px #303030;
+    border-right: solid 1px #303030;
 }
+
+
 h1 {
     font-family: 'Italianno', cursive;
     font-size: clamp(100%, 750%, 750%);
@@ -127,18 +129,18 @@ nav img {
     color: #303030;
     font-family: 'Amiri', serif;
     font-size: 42px;
+    transition: 0.5s;
 }
 
 .liennav:hover {
-    scale: 1.2;
-    text-shadow: #303030;
+    transform: scale(1.2);
+    transition: 0.5s;
 }
 
 ul {
     margin: auto;
     list-style: none;
     flex: 100%;
-    font-size: 24px;
     margin: 0;
     margin-top: 5vh;
     margin-left: -5vw;
@@ -164,3 +166,183 @@ ul {
 .liensoc a img {
     max-width: 50px;
 }
+
+/* Menu de Nav 720p */
+
+@media screen and (max-width: 1366px) {
+    h1 {
+        text-align: center;
+        font-size: 600%;
+        margin: 0;
+        margin-top: 5vh;
+    }
+
+    .h2nav {
+        text-align: center;
+        font-size: 180%;
+        margin: 0;
+        margin-top: -15%;
+        margin-left: 5%;
+    }
+
+    .liennav {
+        font-size: 200%;
+    }
+
+    ul {
+        margin: 0;
+        margin-top: 7vh;
+        margin-left: -3vw;
+        padding: 0;
+    }
+}
+
+/* Menu de Nav Tablette */
+
+@media screen and (max-width: 1024px) {
+    h1 {
+        text-align: center;
+        font-size: 450%;
+        margin: 0;
+        margin-top: 5vh;
+    }
+
+    .h2nav {
+        text-align: center;
+        font-size: 130%;
+        margin: 0;
+        margin-top: -15%;
+        margin-left: 5%;
+    }
+
+    .liennav {
+        font-size: 150%;
+    }
+
+    ul {
+        margin: 0;
+        margin-top: 12vh;
+        margin-left: -3vw;
+        padding: 0;
+    }
+}
+
+/* Menu de Nav mobile */
+
+@media screen and (max-width: 480px) {
+    .navm {
+        left: -300px;
+        width: 50vw;
+        transition: 0.5s;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 400%;
+        margin: 0;
+        margin-top: 5vh;
+    }
+
+    .h2nav {
+        text-align: center;
+        font-size: 120%;
+        margin: 0;
+        margin-top: -15%;
+        margin-left: 5%;
+    }
+
+    .liennav {
+        font-size: 180%;
+    }
+
+    ul {
+        margin: 0;
+        margin-top: 15vh;
+        margin-left: -3vw;
+        padding: 0;
+    }
+
+    .carte {
+        margin-top: -30vh;
+    }
+
+    .liensoc {
+        justify-content: center;
+    }
+
+    .liensoc a img {
+        min-width: 35px;
+    }
+
+    .nav-container .checkbox {
+        position: absolute;
+        display: block;
+        height: 32px;
+        width: 32px;
+        top: 20px;
+        left: 20px;
+        z-index: 5;
+        opacity: 0;
+        cursor: pointer;
+    }
+
+    .nav-container .hamburger-lines {
+        display: block;
+        height: 26px;
+        width: 32px;
+        position: absolute;
+        top: 17px;
+        left: 20px;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .nav-container .hamburger-lines .line {
+        display: block;
+        height: 4px;
+        width: 100%;
+        border-radius: 10px;
+        background: #0e2431;
+    }
+
+    .nav-container .hamburger-lines .line1 {
+        transform-origin: 0% 0%;
+        transition: transform 0.4s ease-in-out;
+    }
+
+    .nav-container .hamburger-lines .line2 {
+        transition: transform 0.2s ease-in-out;
+    }
+
+    .nav-container .hamburger-lines .line3 {
+        transform-origin: 0% 100%;
+        transition: transform 0.4s ease-in-out;
+    }
+
+    .nav-container input[type="checkbox"]:checked~.hamburger-lines .line1 {
+        transform: rotate(45deg);
+    }
+
+    .nav-container input[type="checkbox"]:checked~.hamburger-lines .line2 {
+        transform: scaleY(0);
+    }
+
+    .nav-container input[type="checkbox"]:checked~.hamburger-lines .line3 {
+        transform: rotate(-45deg);
+    }
+
+    .nav-container input[type="checkbox"]:checked~.navm {
+        transform: translateX(300px);
+        transition: 0.5s;
+    }
+}
+
+@media screen and (min-width: 481px) {
+    #check {
+        display: none;
+    }
+}
+
+/* Fin de Menu de Nav */
