@@ -219,7 +219,7 @@ ul {
         left: -300px;
         width: 50vw;
         transition: 0.5s;
-        z-index: 100;
+        z-index: 2;
     }
 
     h1 {
@@ -279,7 +279,7 @@ ul {
         position: absolute;
         top: 17px;
         left: 20px;
-        z-index: 2;
+        z-index: 3;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
