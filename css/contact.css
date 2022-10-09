@@ -261,7 +261,7 @@ ul {
     }
 
     .nav-container .checkbox {
-        position: absolute;
+        position: fixed;
         display: block;
         height: 32px;
         width: 32px;
@@ -276,7 +276,7 @@ ul {
         display: block;
         height: 26px;
         width: 32px;
-        position: absolute;
+        position: fixed;
         top: 17px;
         left: 20px;
         z-index: 3;
