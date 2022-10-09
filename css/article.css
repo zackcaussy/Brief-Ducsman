@@ -85,6 +85,8 @@ main div.left div.france{
 main div.right a.commande{
     color: #303030;
     text-decoration: none;
+    width: 100%;
+    text-align: center;
 }
 /* POP-UP button */
 .overlay {
@@ -145,6 +147,12 @@ main div.right a.commande{
     }
   }
 
+
+/* footer */
+footer{
+    text-align: center;
+    margin-top: 3%;
+}
 
 
 

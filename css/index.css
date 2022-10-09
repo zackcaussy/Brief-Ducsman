@@ -1,6 +1,9 @@
 /* font-family: 'Amiri', serif;
 font-family: 'Italianno', cursive;
 font-family: 'Maitree', serif; */
+html{
+    scroll-behavior: smooth;
+}
 body{
     padding-left: 20%;
     margin: 0;
@@ -9,7 +12,7 @@ body{
 }
 /* panier */
 div.panier{
-    width: 2%;
+    width: 2em;
     position: fixed;
     top: 2%;
     right: 1%;
@@ -22,7 +25,7 @@ div.fleche{
     position: fixed;
     bottom: 1%;
     right: 1%;
-    width: 2%;
+    width: 2em;
 }
 div.fleche img{
     width: 100%;
@@ -80,6 +83,8 @@ footer{
     text-align: center;
     margin-top: 3%;
 }
+
+
 /* nav */
 nav {
     display: flex;
@@ -163,4 +168,22 @@ ul {
 
 .liensoc a img {
     max-width: 50px;
+}
+
+
+
+
+
+
+/* media queries */
+@media screen and (max-width:600px){
+
+    main div.article{
+        flex: 100%;
+    }
+    .texte{
+        font-size: 0.8em;
+    }
+
+
 }
