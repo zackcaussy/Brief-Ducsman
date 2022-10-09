@@ -234,6 +234,7 @@ ul {
         left: -300px;
         width: 50vw;
         transition: 0.5s;
+        z-index: 100;
     }
 
     h1 {
