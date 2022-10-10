@@ -1,3 +1,95 @@
+/*page SAV*/
+
+.vendeur, img{
+
+
+flex-direction: row;
+margin: 5.2px;
+width: auto;
+height: 22.7vh;
+border-radius: 14px;
+
+}
+
+.photo{
+
+margin: 3px;
+flex-direction: row;
+margin: 5.2px;
+width: auto;
+height: 22.7vh;
+border-radius: 14px;
+
+}
+
+.photo2{
+
+margin: 3px;
+flex-direction: row;
+margin: 5.2px;
+width: auto;
+height: 22.7vh;
+border-radius: 14px;
+float: right;
+padding-left: 3px;
+}
+
+.photo4{
+
+margin: 3px;
+flex-direction: row;
+margin: 5.2px;
+width: auto;
+height: 22.7vh;
+border-radius: 14px;
+float: right;
+padding-left: 3px;
+}
+
+
+.photo1{
+
+margin: 3px;
+flex-direction: row;
+margin: 5.2px;
+width: auto;
+height: 22.7vh;
+border-radius: 14px;
+float: left;
+padding-right: 3px;
+}
+
+.photo3{
+
+margin: 3px;
+flex-direction: row;
+margin: 5.2px;
+width: auto;
+height: 22.7vh;
+border-radius: 14px;
+float: left;
+padding-right: 3px;
+}
+
+.creation, .demande, .suivi{
+
+border : 2px black;
+padding: 3px;
+margin: 2px;
+margin-bottom: 10px;
+background-color: #ebedee;
+font-family: 'Maitree';
+}
+
+
+
+footer, p{
+font-family: 'Maitree';
+text-align: justify;
+}
+
+
+
 /* Menu de Nav */
 .navm {
     display: flex;
@@ -268,3 +360,4 @@ ul {
 }
 
 /* Fin de Menu de Nav */
+
