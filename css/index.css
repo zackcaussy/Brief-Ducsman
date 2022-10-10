@@ -78,10 +78,26 @@ div.article div.prix{
     color: #ffffff;
     font-family: 'Amiri', serif;
 }
+
+
 /* footer */
 footer{
     text-align: center;
     margin-top: 3%;
+}
+
+/* media queries */
+
+@media screen and (max-width:480px){
+    body{
+        padding-left: 0;
+    }
+    main{
+        margin-top: 1em;
+    }
+    .article{
+        flex: 50%;
+    }
 }
 
 
