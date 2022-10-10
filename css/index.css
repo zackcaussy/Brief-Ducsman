@@ -175,7 +175,7 @@ ul {
 /* Menu de Nav 720p */
 
 @media screen and (max-width: 1366px) {
-    h1 {
+    .ducs {
         text-align: center;
         font-size: 600%;
         margin: 0;
@@ -205,7 +205,7 @@ ul {
 /* Menu de Nav Tablette */
 
 @media screen and (max-width: 1024px) {
-    h1 {
+    .ducs {
         text-align: center;
         font-size: 450%;
         margin: 0;
@@ -242,7 +242,7 @@ ul {
         z-index: 2;
     }
 
-    h1 {
+    .ducs {
         text-align: center;
         font-size: 400%;
         margin: 0;
