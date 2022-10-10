@@ -9,6 +9,15 @@ body {
        text-align: justify;
    }
 
+
+   h1 {
+    font-family: 'Italianno', cursive;
+    font-size: clamp(100%, 750%, 750%);
+    font-weight: 500;
+    color: #303030;
+    margin: 0;
+    margin-top: 5vh;
+}
 section#contact .container{
     margin: 0px auto;
     display: flex;
