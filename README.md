@@ -17,3 +17,8 @@ Nos dossiers sont constitués de:
 2. Icon
 3. Images
 4. La liste de HTML
+
+
+Pas d'erreur au validateur W3C:
+1. HTML tous OK
+2. CSS tous OK
