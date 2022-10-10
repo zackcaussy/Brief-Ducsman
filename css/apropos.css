@@ -96,6 +96,88 @@ text-align: justify;
 
 
 
+/* font-family: 'Amiri', serif;
+font-family: 'Italianno', cursive;
+font-family: 'Maitree', serif; */
+html{
+    scroll-behavior: smooth;
+}
+
+/* panier */
+div.panier{
+    width: 2em;
+    position: fixed;
+    top: 2%;
+    right: 1%;
+}
+div.panier img{
+    width: 100%;
+}
+/* fleche */
+div.fleche{
+    position: fixed;
+    bottom: 1%;
+    right: 1%;
+    width: 2em;
+}
+div.fleche img{
+    width: 100%;
+}
+/* header */
+header{
+    width: 100%;
+}
+header img{
+    width: 100%;
+}
+/* main */
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 5em;
+    width: 80%;
+    margin-left: 10%;
+    gap: 2em;    
+}
+main div.article{
+    flex: 31%;
+    position: relative;
+    text-align: center;
+}
+main div.article img{
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+}
+div.article div.texte{
+    position: absolute;
+    top: 94%;
+    left: 3%;
+    color: #303030;
+}
+div.article div.texte span{
+    margin-right: 0.6em;
+    background-color: #fff;
+    border-radius: 7px;
+    padding-left: 2px;
+    padding-right: 2px;
+    opacity: 0.7;  
+}
+div.article div.prix{
+    position: absolute;
+    top: 1%;
+    right: 5%;
+    color: #ffffff;
+    font-family: 'Amiri', serif;
+}
+/* footer */
+footer{
+    text-align: center;
+    margin-top: 3%;
+}
+
+
 /* Menu de Nav */
 .navm {
     display: flex;
@@ -108,7 +190,7 @@ text-align: justify;
     left: 0px;
     top: 0px;
     flex-shrink: 1;
-    border-right: solid 1px #303030;
+    
 }
 
 
@@ -366,4 +448,3 @@ ul {
 }
 
 /* Fin de Menu de Nav */
-
