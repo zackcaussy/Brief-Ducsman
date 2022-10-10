@@ -2,7 +2,7 @@ body{
     padding-left: 20%;
     margin: 0;
     font-family: 'Maitree', serif;
-    background-image: linear-gradient(180deg, #fdfcfb 0%, #e2d1c3 100%);
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
 }
 main{
     display: flex;
@@ -174,7 +174,7 @@ footer{
     left: 0px;
     top: 0px;
     flex-shrink: 1;
-    border-right: solid 1px #303030;
+    
 }
 
 
