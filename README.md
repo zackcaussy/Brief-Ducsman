@@ -16,4 +16,4 @@ Nos dossiers sont constitués de:
 1.CSS
 2.Icon
 3.Images
-4 La liste de HTML
+4. La liste de HTML
