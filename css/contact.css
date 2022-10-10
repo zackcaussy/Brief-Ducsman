@@ -60,12 +60,6 @@ section#contact .container form button{
   margin: 0 auto;
 
 }
-body{
-    padding-left: 20%;
-    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
-    height: 100vh;
-    font-family: 'Maitree', serif; ;
-    }
 /* Menu de Nav */
 .navm {
     display: flex;
@@ -78,7 +72,7 @@ body{
     left: 0px;
     top: 0px;
     flex-shrink: 1;
-    border-right: solid 1px #303030;
+   
 }
 
 
