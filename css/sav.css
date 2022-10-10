@@ -1,18 +1,21 @@
 /*page SAV*/
 
-.vendeur img{
+.vendeur {
 
- 
-    flex-direction: row;
-    
    
+   
+    flex-direction: row;
+    justify-content: space-evenly;
+
+   }
+
+
+   .photo, .photo9{
     margin: 5.2px;
-    
-    
     width: auto;
     height: 22.7vh;
     border-radius: 14px;
-    
+
    }
    
    .creation, .demande, .suivi{
@@ -300,12 +303,20 @@ ul {
         transform: translateX(300px);
         transition: 0.5s;
     }
+
+    .photo9{
+        display: none;
+    }
+
 }
 
 @media screen and (min-width: 481px) {
     #check {
         display: none;
     }
+
 }
+
+
 
 /* Fin de Menu de Nav */
