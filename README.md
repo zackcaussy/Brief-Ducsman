@@ -13,7 +13,7 @@ Les pages HTML correspondent suivant l'ordre:
 
 Nos dossiers sont constitués de:
 
-1.CSS
-2.Icon
-3.Images
+1. CSS
+2. Icon
+3. Images
 4. La liste de HTML
