@@ -1,5 +1,11 @@
 /*page SAV*/
 
+body {
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    padding-left: 20%;
+    color: rgb(0, 0, 0);
+}
+
 .vendeur, img{
 
 
