@@ -95,6 +95,7 @@ ul {
 
 @media screen and (max-width: 1366px) {
     .ducs {
+        display: block;
         text-align: center;
         font-size: 600%;
         margin: 0;
@@ -125,6 +126,7 @@ ul {
 
 @media screen and (max-width: 1024px) {
     .ducs {
+        display: block;
         text-align: center;
         font-size: 450%;
         margin: 0;
@@ -162,6 +164,7 @@ ul {
     }
 
     .ducs {
+        display: block;
         text-align: center;
         font-size: 400%;
         margin: 0;
@@ -213,9 +216,9 @@ ul {
 
     .nav-container .hamburger-lines {
         display: block;
+        position: fixed;
         height: 26px;
         width: 32px;
-        position: fixed;
         top: 17px;
         left: 20px;
         z-index: 3;
