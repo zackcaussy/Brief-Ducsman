@@ -178,7 +178,7 @@ footer{
 }
 
 
-h1 {
+.ducs {
     font-family: 'Italianno', cursive;
     font-size: clamp(100%, 750%, 750%);
     font-weight: 500;

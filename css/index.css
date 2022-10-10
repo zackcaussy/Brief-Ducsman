@@ -83,15 +83,10 @@ footer{
     text-align: center;
     margin-top: 3%;
 }
-<<<<<<< HEAD
 
 
-/* nav */
-nav {
-=======
 /* Menu de Nav */
 .navm {
->>>>>>> d55143254557d3107a9c3d5d7a4f093d7838ae18
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -106,7 +101,7 @@ nav {
 }
 
 
-h1 {
+.ducs {
     font-family: 'Italianno', cursive;
     font-size: clamp(100%, 750%, 750%);
     font-weight: 500;
@@ -177,23 +172,6 @@ ul {
     max-width: 50px;
 }
 
-
-
-
-
-
-/* media queries */
-@media screen and (max-width:600px){
-
-    main div.article{
-        flex: 100%;
-    }
-    .texte{
-        font-size: 0.8em;
-    }
-
-
-}
 /* Menu de Nav 720p */
 
 @media screen and (max-width: 1366px) {
