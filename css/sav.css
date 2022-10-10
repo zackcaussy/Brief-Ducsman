@@ -1,5 +1,40 @@
+/*page SAV*/
+
+.vendeur img{
+
+ 
+    flex-direction: row;
+    
+   
+    margin: 5.2px;
+    
+    
+    width: auto;
+    height: 22.7vh;
+    border-radius: 14px;
+    
+   }
+   
+   .creation, .demande, .suivi{
+   
+       border : 2px black;
+       padding: 3px;
+       margin: 2px;
+       margin-bottom: 10px;
+       background-color: #ebedee;
+       font-family: 'Maitree';
+   }
+   
+   
+   
+   footer, p{
+       font-family: 'Maitree';
+       text-align: justify;
+   }
+
+
 body {
-    background-color: rgb(109, 109, 109);
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
     padding-left: 20%;
     color: rgb(0, 0, 0);
 }
@@ -16,7 +51,7 @@ body {
     left: 0px;
     top: 0px;
     flex-shrink: 1;
-    border-right: solid 1px #303030;
+   
 }
 
 
