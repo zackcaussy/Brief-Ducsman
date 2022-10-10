@@ -6,8 +6,25 @@ body {
     color: rgb(0, 0, 0);
 }
 
-.vendeur, img{
+h2{
+    font-family: 'Amiri', sans-serif;
+    font-weight: 500;
+    color: #303030;
+}
+    
+    
+    
+h1 {
+    font-family: 'Italianno', cursive;
+    font-size: clamp(100%, 750%, 750%);
+    font-weight: 500;
+    color: #303030;
+    margin: 0;
+    margin-top: 5vh;
+}
 
+
+.vendeur, img{
 
 flex-direction: row;
 margin: 5.2px;
