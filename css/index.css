@@ -8,7 +8,8 @@ body{
     padding-left: 20%;
     margin: 0;
     font-family: 'Maitree', serif;
-    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    color: #303030;
 }
 /* panier */
 div.panier{
