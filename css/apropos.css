@@ -111,7 +111,11 @@ font-family: 'Maitree';
 text-align: justify;
 }
 
-
+/* footer */
+footer{
+    text-align: center;
+    margin-top: 3%;
+}
 
 /* font-family: 'Amiri', serif;
 font-family: 'Italianno', cursive;
