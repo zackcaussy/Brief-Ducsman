@@ -12,7 +12,7 @@ main{
     margin-top: 5em;
     width: 80%;
     margin-left: 10%;
-    gap: 2em;    
+    gap: 2em;
 }
 main div.left{
     flex: 1;
@@ -479,11 +479,12 @@ ul {
         display: inline;
         font-size: 3em;
         text-align: center;
-        margin-top: 0px;
-        margin-bottom: 0px;
+
     }
     header h1{
         font-weight: lighter;
         color: #303030;
+        margin-top: 0;
+        margin-bottom: 0;
     }
 }
