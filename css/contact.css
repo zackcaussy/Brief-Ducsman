@@ -166,6 +166,13 @@ ul {
     max-width: 50px;
 }
 
+/* footer */
+footer{
+    text-align: center;
+    margin-top: 3%;
+}
+
+
 /* Menu de Nav 720p */
 
 @media screen and (max-width: 1366px) {
