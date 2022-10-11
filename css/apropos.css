@@ -106,12 +106,17 @@ font-family: 'Maitree';
 
 
 
-footer, p{
+main p{
 font-family: 'Maitree';
 text-align: justify;
 }
 
-
+/* footer */
+footer{
+    text-align: center;
+    margin-top: 3%;
+    font-family: 'Maitree';
+}
 
 /* font-family: 'Amiri', serif;
 font-family: 'Italianno', cursive;
@@ -187,11 +192,7 @@ div.article div.prix{
     color: #ffffff;
     font-family: 'Amiri', serif;
 }
-/* footer */
-footer{
-    text-align: center;
-    margin-top: 3%;
-}
+
 
 
 /* Menu de Nav */
