@@ -1,18 +1,21 @@
 /*page SAV*/
 
-.vendeur img{
+.vendeur {
 
- 
-    flex-direction: row;
-    
    
+   
+    flex-direction: row;
+    justify-content: space-evenly;
+
+   }
+
+
+   .photo, .photo9{
     margin: 5.2px;
-    
-    
     width: auto;
     height: 22.7vh;
     border-radius: 14px;
-    
+
    }
    
    .creation, .demande, .suivi{
@@ -27,11 +30,11 @@
    
    
    
-   footer, p{
-       font-family: 'Maitree';
-       text-align: justify;
-   }
-
+   footer{
+    text-align: center;
+    margin-top: 3%;
+    font-family: 'Maitree';
+}
 
 body {
     background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
@@ -61,10 +64,12 @@ body {
     font-weight: 500;
     color: #303030;
     margin: 0;
+    margin-left: 1vw;
     margin-top: 5vh;
 }
 
 .h2nav {
+    display: block;
     font-family: 'Amiri', serif;
     color: #303030;
     font-size: 220%;
@@ -73,7 +78,6 @@ body {
     margin-left: 5%;
     font-weight: 500;
 }
-
 .lienacc {
     text-decoration: none;
 }
@@ -124,6 +128,12 @@ ul {
 
 .liensoc a img {
     max-width: 50px;
+}
+
+/* footer */
+footer{
+    text-align: center;
+    margin-top: 3%;
 }
 
 /* Menu de Nav 720p */
@@ -300,12 +310,20 @@ ul {
         transform: translateX(300px);
         transition: 0.5s;
     }
+
+    .photo9{
+        display: none;
+    }
+
 }
 
 @media screen and (min-width: 481px) {
     #check {
         display: none;
     }
+
 }
+
+
 
 /* Fin de Menu de Nav */
