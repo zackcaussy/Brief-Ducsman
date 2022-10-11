@@ -3,6 +3,7 @@ body{
     margin: 0;
     font-family: 'Maitree', serif;
     background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    color: #303030;
 }
 main{
     display: flex;
@@ -24,12 +25,15 @@ main div img{
     border-radius: 10px;
 }
 main div.right h2{
-    font-size:4em;
+    font-size:6em;
     font-family: 'Amiri', serif;
     font-weight: 100;
+    display: inline;
+    color: #303030;
 }
 main div.right h2.prix{
-    font-size: 2em;
+    font-size: 3em;
+    display: block;
 }
 main div.right p{
     font-size: 2em;
@@ -440,6 +444,7 @@ ul {
         flex-direction: column;
         width: 95%;
         margin-left: 2.5%;
+        margin-top: 0;
     }
     main div.right{
         margin-top: -1em;
@@ -472,6 +477,13 @@ ul {
     }
     header{
         display: inline;
-        
+        font-size: 3em;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    header h1{
+        font-weight: lighter;
+        color: #303030;
     }
 }
