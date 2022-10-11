@@ -36,9 +36,6 @@ section#contact .container{
  section#contact .container .titre p{
     font-size: 1em; 
 }
-section#contact .container .titre h3{
-    font-size: 2.2em;
-}
 section#contact .container form{
     display: flex;
     flex-wrap: wrap;
@@ -85,6 +82,13 @@ section#contact .container form button{
     }
     #Sujet{
         max-width: 50vw;
+    }
+    h1{
+        font-size: 500%;
+
+    }
+    body{
+        padding: 0;
     }
 }
 /* Menu de Nav */
