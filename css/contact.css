@@ -36,9 +36,6 @@ section#contact .container{
  section#contact .container .titre p{
     font-size: 1em; 
 }
-section#contact .container .titre h3{
-    font-size: 2.2em;
-}
 section#contact .container form{
     display: flex;
     flex-wrap: wrap;
@@ -79,6 +76,21 @@ section#contact .container form button{
   margin: 0 auto;
 
 }
+@media screen and (max-width:480px) {
+    form{
+        width: 50vw;
+    }
+    #Sujet{
+        max-width: 50vw;
+    }
+    h1{
+        font-size: 500%;
+
+    }
+    body{
+        padding: 0;
+    }
+}
 /* Menu de Nav */
 .navm {
     display: flex;
@@ -94,17 +106,18 @@ section#contact .container form button{
    
 }
 
-
 .ducs {
     font-family: 'Italianno', cursive;
     font-size: clamp(100%, 750%, 750%);
     font-weight: 500;
     color: #303030;
     margin: 0;
+    margin-left: 1vw;
     margin-top: 5vh;
 }
 
 .h2nav {
+    display: block;
     font-family: 'Amiri', serif;
     color: #303030;
     font-size: 220%;
