@@ -94,17 +94,18 @@ section#contact .container form button{
    
 }
 
-
 .ducs {
     font-family: 'Italianno', cursive;
     font-size: clamp(100%, 750%, 750%);
     font-weight: 500;
     color: #303030;
     margin: 0;
+    margin-left: 1vw;
     margin-top: 5vh;
 }
 
 .h2nav {
+    display: block;
     font-family: 'Amiri', serif;
     color: #303030;
     font-size: 220%;
