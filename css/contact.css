@@ -12,6 +12,10 @@ footer{
     color: #303030;
 }
 
+#contact {
+    height: 90vh;
+}
+
    h1 {
     font-family: 'Italianno', cursive;
     font-size: clamp(100%, 750%, 750%);
