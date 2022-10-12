@@ -459,12 +459,24 @@ ul {
         transform: translateX(300px);
         transition: 0.5s;
     }
+
+    .photo9{
+        display: none;
+    }
+
+
+    body{
+        padding: 0%;
+    }
 }
 
 @media screen and (min-width: 481px) {
     #check {
         display: none;
     }
+
 }
+
+
 
 /* Fin de Menu de Nav */

@@ -326,6 +326,15 @@ footer{
         display: none;
     }
 
+body{
+    padding: 0%;
+}
+
+.photo{
+    margin: auto;
+    display: block;
+}
+
 }
 
 @media screen and (min-width: 481px) {
