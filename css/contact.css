@@ -18,7 +18,7 @@ footer{
     font-weight: 500;
     color: #303030;
     margin: 0;
-    margin-top: 5vh;
+ 
 }
 section#contact .container{
     margin: 0px auto;
@@ -32,7 +32,7 @@ section#contact .container{
 }
  section#contact .container .titre{
  text-align: center;
- margin-bottom: 50px;
+
  }
  section#contact .container .titre p{
     font-size: 1em; 
@@ -61,7 +61,7 @@ section#contact .container form textarea{
     width: 600px;
     resize: none;
     height: 100px;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 section#contact .container form button{
   width: 192px;
@@ -79,10 +79,10 @@ section#contact .container form button{
 }
 @media screen and (max-width:480px) {
     form{
-        width: 50vw;
+        width: 75vw;
     }
     #Sujet{
-        max-width: 50vw;
+        max-width: 75vw;
     }
     h1{
         font-size: 500%;
@@ -90,6 +90,7 @@ section#contact .container form button{
     }
     body{
         padding: 0;
+        height: 70vh;
     }
 }
 /* Menu de Nav */
