@@ -16,15 +16,15 @@ footer{
     height: 90vh;
 }
 
-   h1 {
+h1 {
     font-family: 'Italianno', cursive;
     font-size: clamp(100%, 750%, 750%);
     font-weight: 500;
     color: #303030;
     margin: 0;
- 
 }
-section#contact .container{
+
+section#contact .container {
     margin: 0px auto;
     display: flex;
     flex-direction: column;
@@ -34,25 +34,27 @@ section#contact .container{
     box-sizing: border-box;
     font-family: 'Maitree', serif;
 }
- section#contact .container .titre{
- text-align: center;
 
- }
- section#contact .container .titre p{
+section#contact .container .titre {
+text-align: center;
+}
+
+section#contact .container .titre p {
     font-size: 1em; 
 }
-section#contact .container form{
+
+section#contact .container form {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     max-width: 600px;
 }
-section#contact .container form input{
+
+section#contact .container form input {
     width: 47%;
 }
 
-section#contact .container form input,
-section#contact .container form textarea{
+section#contact .container form input, section#contact .container form textarea {
     margin: 10px 0;
     padding: 10px 0;
     box-sizing: border-box;
@@ -61,13 +63,15 @@ section#contact .container form textarea{
     border-bottom: 2px solid #FFFF;
     transition: 0.2s;
 }
-section#contact .container form textarea{
+
+section#contact .container form textarea {
     width: 600px;
     resize: none;
     height: 100px;
     margin-bottom: 15px;
 }
-section#contact .container form button{
+
+section#contact .container form button {
   width: 192px;
   height: 50px;
   border-radius: 8px;
@@ -79,8 +83,8 @@ section#contact .container form button{
   margin-top: 30px;
   outline: none;
   margin: 0 auto;
-
 }
+
 @media screen and (max-width:480px) {
     form{
         width: 75vw;
@@ -97,7 +101,9 @@ section#contact .container form button{
         height: 100vh;
     }
 }
+
 /* Menu de Nav */
+
 .navm {
     display: flex;
     flex-direction: column;
@@ -109,7 +115,6 @@ section#contact .container form button{
     left: 0px;
     top: 0px;
     flex-shrink: 1;
-   
 }
 
 .ducs {
@@ -186,11 +191,11 @@ ul {
 }
 
 /* footer */
+
 footer{
     text-align: center;
     margin-top: 3%;
 }
-
 
 /* Menu de Nav 720p */
 

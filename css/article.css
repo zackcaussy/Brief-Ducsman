@@ -1,11 +1,12 @@
-body{
+body {
     padding-left: 20%;
     margin: 0;
     font-family: 'Maitree', serif;
     background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
     color: #303030;
 }
-main{
+
+main {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -14,65 +15,80 @@ main{
     margin-left: 10%;
     gap: 2em;
 }
-main div.left{
+
+main div.left {
     flex: 1;
 }
-main div.right{
+
+main div.right {
     flex: 1;
 }
-main div img{
-    width:100%;
+
+main div img {
+    width: 100%;
     border-radius: 10px;
 }
-main div.right h2{
-    font-size:6em;
+
+main div.right h2 {
+    font-size: 6em;
     font-family: 'Amiri', serif;
     font-weight: 100;
     display: inline;
     color: #303030;
 }
-main div.right h2.prix{
+
+main div.right h2.prix {
     font-size: 3em;
     display: block;
 }
-main div.right p{
+
+main div.right p {
     font-size: 2em;
 }
-header{
+
+header {
     font-family: 'Italianno', cursive;
     display: none;
 }
+
 /* made in France */
-main div.left{
+
+main div.left {
     position: relative;
 }
-main div.left div.france{
+
+main div.left div.france {
     position: absolute;
     bottom: 1%;
     right: 1%;
 }
+
 /* le hover du made in France */
-.france{
+.france {
     position: relative;
     display: inline-block;
     width: 10%;
 }
-.france img{
+
+.france img {
     width: 100%;
 }
-.france .madeblue{
+
+.france .madeblue {
     display: none;
     position: absolute;
     top: 0;
     left: 0;
     z-index: 99;
 }
-.france:hover .madeblue{
+
+.france:hover .madeblue {
     display: inline;
 }
 
 /* button d'achat */
-.button{
+
+.button {
     background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
     padding: 1%;
     display: flex;
@@ -83,21 +99,25 @@ main div.left div.france{
     justify-content: center;
     border: 1px solid #303030;
     border-radius: 8px;
-    cursor:pointer;
+    cursor: pointer;
 }
-.button:hover{
+
+.button:hover {
     color: #303030;
-    transition:0.3s;
+    transition: 0.3s;
     transform: scale(1.01, 1.01);
     letter-spacing: 1px;
 }
-main div.right a.commande{
+
+main div.right a.commande {
     color: #303030;
     text-decoration: none;
     width: 100%;
     text-align: center;
 }
+
 /* POP-UP button */
+
 .overlay {
     position: fixed;
     top: 0;
@@ -108,13 +128,14 @@ main div.right a.commande{
     transition: opacity 0.2s;
     visibility: hidden;
     opacity: 0;
-  }
-  .overlay:target {
+}
+
+.overlay:target {
     visibility: visible;
     opacity: 1;
-  }
-  
-  .popup {
+}
+
+.popup {
     margin: 70px auto;
     padding: 20px;
     background: #fff;
@@ -122,14 +143,15 @@ main div.right a.commande{
     width: 30%;
     position: relative;
     transition: all 1s;
-  }
-  
-  .popup h2 {
+}
+
+.popup h2 {
     margin-top: 0;
     color: #333;
     font-family: Tahoma, Arial, sans-serif;
-  }
-  .popup .close {
+}
+
+.popup .close {
     position: absolute;
     top: 20px;
     right: 30px;
@@ -138,31 +160,36 @@ main div.right a.commande{
     font-weight: bold;
     text-decoration: none;
     color: #333;
-  }
-  .popup .close:hover {
+}
+
+.popup .close:hover {
     color: red;
-  }
-  .popup .content {
+}
+
+.popup .content {
     max-height: 30%;
     overflow: auto;
-  }
-  
-  @media screen and (max-width: 700px){
-    .box{
-      width: 70%;
-    }
-    .popup{
-      width: 70%;
-    }
-  }
+}
 
+@media screen and (max-width: 700px) {
+    .box {
+        width: 70%;
+    }
+
+    .popup {
+        width: 70%;
+    }
+}
 
 /* footer */
-footer{
+
+footer {
     text-align: center;
     margin-top: 3%;
 }
+
 /* Menu de Nav */
+
 .navm {
     display: flex;
     flex-direction: column;
@@ -173,7 +200,7 @@ footer{
     width: 20vw;
     left: 0px;
     top: 0px;
-    flex-shrink: 1;  
+    flex-shrink: 1;
 }
 
 
@@ -434,54 +461,59 @@ ul {
 
 /* Fin de Menu de Nav */
 
-
 /* media queries */
 @media screen and (max-width:480px) {
-    body{
+    body {
         padding: 0;
     }
-    main{
+
+    main {
         flex-direction: column;
         width: 95%;
         margin-left: 2.5%;
         margin-top: 0;
     }
-    main div.right{
+
+    main div.right {
         margin-top: -1em;
     }
-    main div.right p{
+
+    main div.right p {
         display: inline-block;
-        font-size: 1.2em; 
-        margin-top: 0.8em; 
-        margin-bottom: 1.5em; 
-        
+        font-size: 1.2em;
+        margin-top: 0.8em;
+        margin-bottom: 1.5em;
     }
-    main div.right h2{
+
+    main div.right h2 {
         font-size: 3em;
         display: block;
         margin: 0;
         line-height: 0.8em;
         text-align: center;
     }
-    main div.right h2.prix{
+
+    main div.right h2.prix {
         display: block;
         margin: 0;
         text-align: center;
         margin-bottom: 0.8em;
         font-size: 2.5em;
     }
-    main div.right div.button{
+
+    main div.right div.button {
         margin: auto;
         width: 90%;
         height: 3em;
     }
-    header{
+
+    header {
         display: inline;
         font-size: 3em;
         text-align: center;
-
     }
-    header h1{
+
+    header h1 {
         font-weight: lighter;
         color: #303030;
         margin-top: 0;

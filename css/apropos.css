@@ -6,14 +6,12 @@ body {
     color: rgb(0, 0, 0);
 }
 
-h2{
+h2 {
     font-family: 'Amiri', sans-serif;
     font-weight: 500;
     color: #303030;
 }
-    
-    
-    
+
 h1 {
     font-family: 'Italianno', cursive;
     font-size: clamp(100%, 750%, 750%);
@@ -23,170 +21,173 @@ h1 {
     text-align: center;
 }
 
+.vendeur {
 
-.vendeur{
-
-flex-direction: row;
-margin: 5.2px;
-width: auto;
-height: 22.7vh;
-border-radius: 14px;
-
+    flex-direction: row;
+    margin: 5.2px;
+    width: auto;
+    height: 22.7vh;
+    border-radius: 14px;
 }
 
-.photo{
+.photo {
 
-margin: 3px;
-flex-direction: row;
-margin: 5.2px;
-width: auto;
-height: 22.7vh;
-border-radius: 14px;
-
+    margin: 3px;
+    flex-direction: row;
+    margin: 5.2px;
+    width: auto;
+    height: 22.7vh;
+    border-radius: 14px;
 }
 
-.photo2{
+.photo2 {
 
-margin: 3px;
-flex-direction: row;
-margin: 5.2px;
-width: auto;
-height: 22.7vh;
-border-radius: 14px;
-float: right;
-padding-left: 3px;
+    margin: 3px;
+    flex-direction: row;
+    margin: 5.2px;
+    width: auto;
+    height: 22.7vh;
+    border-radius: 14px;
+    float: right;
+    padding-left: 3px;
 }
 
-.photo4{
-
-margin: 3px;
-flex-direction: row;
-margin: 5.2px;
-width: auto;
-height: 22.7vh;
-border-radius: 14px;
-float: right;
-padding-left: 3px;
+.photo4 {
+    margin: 3px;
+    flex-direction: row;
+    margin: 5.2px;
+    width: auto;
+    height: 22.7vh;
+    border-radius: 14px;
+    float: right;
+    padding-left: 3px;
 }
 
-
-.photo1{
-
-margin: 3px;
-flex-direction: row;
-margin: 5.2px;
-width: auto;
-height: 22.7vh;
-border-radius: 14px;
-float: left;
-padding-right: 3px;
+.photo1 {
+    margin: 3px;
+    flex-direction: row;
+    margin: 5.2px;
+    width: auto;
+    height: 22.7vh;
+    border-radius: 14px;
+    float: left;
+    padding-right: 3px;
 }
 
-.photo3{
-
-margin: 3px;
-flex-direction: row;
-margin: 5.2px;
-width: auto;
-height: 22.7vh;
-border-radius: 14px;
-float: left;
-padding-right: 3px;
+.photo3 {
+    margin: 3px;
+    flex-direction: row;
+    margin: 5.2px;
+    width: auto;
+    height: 22.7vh;
+    border-radius: 14px;
+    float: left;
+    padding-right: 3px;
 }
 
-.creation, .demande, .suivi{
-
-border : 2px black;
-padding: 3px;
-margin: 2px;
-margin-bottom: 10px;
-background-color: #ebedee;
-font-family: 'Maitree';
+.creation,.demande,.suivi {
+    border: 2px black;
+    padding: 3px;
+    margin: 2px;
+    margin-bottom: 10px;
+    background-color: #ebedee;
+    font-family: 'Maitree';
 }
 
-
-
-main p{
-font-family: 'Maitree';
-text-align: justify;
+main p {
+    font-family: 'Maitree';
+    text-align: justify;
 }
 
 /* footer */
-footer{
+
+footer {
     text-align: center;
     margin-top: 3%;
     font-family: 'Maitree';
     color: #303030;
 }
 
-/* font-family: 'Amiri', serif;
-font-family: 'Italianno', cursive;
-font-family: 'Maitree', serif; */
-html{
+html {
     scroll-behavior: smooth;
 }
 
 /* panier */
-div.panier{
+
+div.panier {
     width: 2em;
     position: fixed;
     top: 2%;
     right: 1%;
 }
-div.panier img{
+
+div.panier img {
     width: 100%;
 }
+
 /* fleche */
-div.fleche{
+
+div.fleche {
     position: fixed;
     bottom: 1%;
     right: 1%;
     width: 2em;
 }
-div.fleche img{
+
+div.fleche img {
     width: 100%;
 }
+
 /* header */
-header{
+
+header {
     width: 100%;
 }
-header img{
+
+header img {
     width: 100%;
 }
+
 /* main */
-main{
+
+main {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     margin-top: 5em;
     width: 100%;
-    gap: 2em;    
+    gap: 2em;
 }
-main div.article{
+
+main div.article {
     flex: 31%;
     position: relative;
     text-align: center;
 }
-main div.article img{
+
+main div.article img {
     width: 100%;
     height: 100%;
     border-radius: 7px;
 }
-div.article div.texte{
+
+div.article div.texte {
     position: absolute;
     top: 94%;
     left: 3%;
     color: #303030;
 }
-div.article div.texte span{
+
+div.article div.texte span {
     margin-right: 0.6em;
     background-color: #fff;
     border-radius: 7px;
     padding-left: 2px;
     padding-right: 2px;
-    opacity: 0.7;  
+    opacity: 0.7;
 }
-div.article div.prix{
+
+div.article div.prix {
     position: absolute;
     top: 1%;
     right: 5%;
@@ -194,9 +195,8 @@ div.article div.prix{
     font-family: 'Amiri', serif;
 }
 
-
-
 /* Menu de Nav */
+
 .navm {
     display: flex;
     flex-direction: column;
@@ -208,9 +208,7 @@ div.article div.prix{
     left: 0px;
     top: 0px;
     flex-shrink: 1;
-    
 }
-
 
 .ducs {
     font-family: 'Italianno', cursive;
@@ -460,12 +458,11 @@ ul {
         transition: 0.5s;
     }
 
-    .photo9{
+    .photo9 {
         display: none;
     }
 
-
-    body{
+    body {
         padding: 0%;
     }
 }
@@ -474,9 +471,6 @@ ul {
     #check {
         display: none;
     }
-
 }
-
-
 
 /* Fin de Menu de Nav */

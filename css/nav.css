@@ -5,6 +5,7 @@ body {
 }
 
 /* Menu de Nav */
+
 .navm {
     display: flex;
     flex-direction: column;
@@ -16,9 +17,7 @@ body {
     left: 0px;
     top: 0px;
     flex-shrink: 1;
-    
 }
-
 
 .ducs {
     font-family: 'Italianno', cursive;
