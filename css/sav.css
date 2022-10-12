@@ -14,7 +14,7 @@
 
 .creation,.demande,.suivi {
     border: 2px black;
-    padding: 3px;
+    padding: 5px;
     margin: 2px;
     margin-bottom: 10px;
     background-color: #ebedee;
@@ -138,6 +138,8 @@ footer {
     text-align: center;
     margin-top: 3%;
 }
+
+
 
 /* Menu de Nav 720p */
 
