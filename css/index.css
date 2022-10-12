@@ -13,10 +13,15 @@ body{
 }
 /* panier */
 div.panier{
+    z-index: 3;
     width: 2em;
     position: fixed;
-    top: 2%;
-    right: 1%;
+    top: 12px;
+    right: 0px;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee2a 100%);
+    /* background-color: rgba(213, 202, 233, 0.3); */
+    padding: 2px 2px 0px 2px;
+    border-radius: 5px;
 }
 div.panier img{
     width: 100%;
@@ -25,7 +30,7 @@ div.panier img{
 div.fleche{
     position: fixed;
     bottom: 1%;
-    right: 1%;
+    right: 0px;
     width: 2em;
 }
 div.fleche img{
@@ -312,8 +317,8 @@ ul {
         display: block;
         height: 32px;
         width: 32px;
-        top: 20px;
-        left: 20px;
+        top: 17px;
+        left: 0px;
         z-index: 5;
         opacity: 0;
         cursor: pointer;
@@ -325,11 +330,18 @@ ul {
         height: 26px;
         width: 32px;
         top: 17px;
-        left: 20px;
+        left: 0px;
         z-index: 3;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+    }
+
+    .hamburger-lines {
+        /* background-color: rgba(213, 202, 233, 0.3); */
+        background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee2a 100%);
+        padding: 6px 3px 5px 3px;
+        border-radius: 5px;
     }
 
     .nav-container .hamburger-lines .line {
@@ -352,6 +364,10 @@ ul {
     .nav-container .hamburger-lines .line3 {
         transform-origin: 0% 100%;
         transition: transform 0.4s ease-in-out;
+    }
+
+    .nav-container input[type="checkbox"]:checked~.hamburger-lines {
+        background: none;
     }
 
     .nav-container input[type="checkbox"]:checked~.hamburger-lines .line1 {
