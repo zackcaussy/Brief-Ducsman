@@ -28,13 +28,23 @@
        font-family: 'Maitree';
    }
    
-   
+
    
    footer{
     text-align: center;
     margin-top: 3%;
     font-family: 'Maitree';
     color: #303030;
+}
+
+main {
+    height: 90vh;
+}
+
+@media screen and (max-width: 480px) {
+    main {
+        height: auto;
+    }
 }
 
 body {
