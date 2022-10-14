@@ -20,7 +20,7 @@ main div.left {
     flex: 1;
 }
 
-main div.right {
+main article.right {
     flex: 1;
 }
 
@@ -29,7 +29,7 @@ main div img {
     border-radius: 10px;
 }
 
-main div.right h2 {
+main article.right h2 {
     font-size: 6em;
     font-family: 'Amiri', serif;
     font-weight: 100;
@@ -37,12 +37,12 @@ main div.right h2 {
     color: #303030;
 }
 
-main div.right h2.prix {
+main article.right h2.prix {
     font-size: 3em;
     display: block;
 }
 
-main div.right p {
+main article.right p {
     font-size: 2em;
 }
 
@@ -109,7 +109,7 @@ main div.left div.france {
     letter-spacing: 1px;
 }
 
-main div.right a.commande {
+main article.right a.commande {
     color: #303030;
     text-decoration: none;
     width: 100%;
@@ -474,18 +474,18 @@ ul {
         margin-top: 0;
     }
 
-    main div.right {
+    main article.right {
         margin-top: -1em;
     }
 
-    main div.right p {
+    main article.right p {
         display: inline-block;
         font-size: 1.2em;
         margin-top: 0.8em;
         margin-bottom: 1.5em;
     }
 
-    main div.right h2 {
+    main article.right h2 {
         font-size: 3em;
         display: block;
         margin: 0;
@@ -493,7 +493,7 @@ ul {
         text-align: center;
     }
 
-    main div.right h2.prix {
+    main article.right h2.prix {
         display: block;
         margin: 0;
         text-align: center;
@@ -501,7 +501,7 @@ ul {
         font-size: 2.5em;
     }
 
-    main div.right div.button {
+    main article.right div.button {
         margin: auto;
         width: 90%;
         height: 3em;
