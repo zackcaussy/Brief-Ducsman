@@ -62,45 +62,26 @@ main {
     gap: 2em;
 }
 
-.article {
+main div.article {
     flex: 31%;
     position: relative;
     text-align: center;
 }
 
-.article img {
+main div.article img {
     width: 100%;
     height: 100%;
     border-radius: 7px;
 }
 
-.article div.texte {
+div.article div.texte {
     position: absolute;
     top: 94%;
     left: 3%;
     color: white;
 }
 
-.nomcostume {
-    opacity: 0;
-    position: absolute;
-    width: 50%;
-    color: rgba(255, 255, 255, 0.7);
-    background-color: #303030;
-    background-color: rgba(48, 48, 48, 0.7);
-    margin: auto;
-    top: 272.5px;
-    left: 25%;
-    border-radius: 7px;
-    transition: 0.5;
-}
-
-.article a:hover .nomcostume{
-    opacity: 1;
-    transition: 0.5s;
-}
-
-.article div.texte span {
+div.article div.texte span {
     margin-right: 0.6em;
     background-color: #303030;
     border-radius: 7px;
@@ -109,7 +90,7 @@ main {
     opacity: 0.7;
 }
 
-.article div.prix {
+div.article div.prix {
     position: absolute;
     top: 0;
     right: 0;
@@ -141,7 +122,7 @@ footer {
         margin-top: 1em;
     }
 
-    main .article {
+    main div.article {
         flex: 50%;
     }
 }
